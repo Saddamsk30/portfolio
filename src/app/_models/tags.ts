@@ -51,12 +51,16 @@ export class Tag {
     static readonly MYSQL = new Tag('MySQL', '#00758f');
     static readonly MONGODB = new Tag('MongoDB', '#47a248');
     static readonly APEXCHART = new Tag('ApexCharts', '#FF4560');
-static readonly CHARTJS = new Tag('Chart.js', '#ff6384');
-static readonly NODEJS = new Tag('Node.js', '#43853d');      
-static readonly EXPRESSJS = new Tag('Express.js', '#000000');
-static readonly ASPNET = new Tag('ASP.NET', '#512bd4');      
-static readonly SQLSERVER = new Tag('SQL Server', '#cc2927'); 
-static readonly CSHARP = new Tag('C#', '#239120');           
+    static readonly CHARTJS = new Tag('Chart.js', '#ff6384');
+    static readonly NODEJS = new Tag('Node.js', '#43853d');      
+    static readonly EXPRESSJS = new Tag('Express.js', '#000000');
+    static readonly ASPNET = new Tag('ASP.NET', '#512bd4');      
+    static readonly SQLSERVER = new Tag('SQL Server', '#cc2927'); 
+    static readonly CSHARP = new Tag('C#', '#239120');           
+    static readonly PLAYWRIGHT = new Tag('playwright', '#239120'); 
+    static readonly E2ETESTING = new Tag('E2E Testing', '#FF4560');
+    static readonly AUTOMATION = new Tag('Automation', '#fc6d26');
+
 
 
 
