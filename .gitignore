@@ -13,3 +13,4 @@ build/
 # Windows system files
 Thumbs.db
 Desktop.ini
+.angular/
