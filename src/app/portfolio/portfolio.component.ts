@@ -35,8 +35,8 @@ export class PortfolioComponent {
     },
     {
       id: 3,
-      name: 'Playwright Automation Testing Suite',
-      summary: "An advanced end-to-end automation suite using Playwright and AI-driven Excel validation, featuring silent authentication, Allure reporting, and environment-based configuration.",
+      name: 'Playwright Automation Testing Full Application with AI Agents, MCP Server',
+      summary: "An advanced end-to-end automation suite using Playwright and create AI-agents Excel validation, featuring silent authentication, Allure reporting, and environment-based configuration.",
       description: 'This scalable automation testing framework is built with Playwright and TypeScript for enterprise web applications. It enables silent authentication by injecting tokens directly into browser sessions, significantly improving test performance. The suite automates complex workflows including file uploads, downloads, and Excel read/write operations using AI agents and MCP servers. With Allure integration for detailed reporting, it includes environment-specific configs, test tagging, parallel execution, and real-time debugging tools like screenshots and step-level logs.',
       tags: [Tag.TYPESCRIPT, Tag.PLAYWRIGHT, Tag.E2ETESTING, Tag.AUTOMATION],
       pictures: [],
