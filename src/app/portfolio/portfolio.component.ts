@@ -18,8 +18,8 @@ export class PortfolioComponent {
     {
       id: 1,
       name: 'Dashboard',
-      summary: "An enterprise-level admin dashboard designed for managing, developed using JSP and Jquery,Javascript,AJAX with full REST API integration.",
-      description: "This Dashboard is a robust frontend solution built for merchant operations and users and data management. It features advanced modules such as Active, Pending, and Rejected Merchant management, real-time data filtering, BQR integration, non-card merchant support, and detailed search with export functionality. Developed with Jsp, Html, css, Ajax, Bootstrap, and javascript, it incorporates reusable components, form validation, JWT-based authentication, and clean UI design. The dashboard ensures responsive layout, seamless user experience, and optimized performance for large-scale data interactions.",
+      summary: "An enterprise-level admin dashboard developed using JSP, jQuery, JavaScript, and AJAX with full REST API integration for efficient management and monitoring.",
+      description: "This robust dashboard is designed for enterprise-grade merchant and user data management. It features modules for handling active, pending, and rejected merchants, real-time filtering, BQR integration, and non-card merchant support. The system supports advanced search and export functionality. Built using JSP, HTML, CSS, Bootstrap, AJAX, and JavaScript, it includes reusable components, JWT-based authentication, responsive design, and a seamless UI/UX optimized for large datasets.",
       tags: [Tag.JSP, Tag.JQUERY, Tag.BOOTSTRAP, Tag.JAVASCRIPT, Tag.RESTAPI, Tag.AJAX, Tag.HTML5, Tag.CSS3],
       pictures: [],
       projectLink: ''
@@ -27,34 +27,34 @@ export class PortfolioComponent {
     
     {
       id: 2,
-      name: 'Report Dashboard',
-      summary: "A responsive dashboard for transaction monitoring, built with Angular, ApexCharts, and Bootstrap. Provides visual analytics on acquirer-wise counts and transaction amounts with dynamic filtering and user management.",
-      description: "The Report Dashboard is a web-based analytics tool designed to track and manage data in a payment system. The dashboard includes interactive charts and graphs powered by ApexCharts to visualize transaction count and amount metrics. Users can apply filters (date range,file type ,etc.), view aggregated summaries, and export reports. Built with Angular, HTML5, CSS3, and Bootstrap 5, the UI is fully responsive across devices. Admin-level users can add, update, and manage data entries directly through the interface.",
+      name: 'Dashboard',
+      summary: "A responsive analytics dashboard built with Angular, ApexCharts, and Bootstrap, providing interactive transaction insights with dynamic filtering and user management.",
       projectLink: '',
-      tags: [Tag.HTML5, Tag.CSS3, Tag.TYPESCRIPT, Tag.BOOTSTRAP, Tag.ANGULAR, Tag.APEXCHART, Tag.CHARTJS,Tag.RESTAPI],
-      pictures: [""]
+      tags: [Tag.HTML5, Tag.CSS3, Tag.TYPESCRIPT, Tag.BOOTSTRAP, Tag.ANGULAR, Tag.APEXCHART, Tag.CHARTJS, Tag.RESTAPI],
+      pictures: [""],
+      description: 'this Dashboard is a modern web-based analytics tool that visualizes acquirer-wise transaction counts and amounts. Users can apply filters such as date range and file type, view summarized data, and export reports. Built with Angular, HTML5, CSS3, and Bootstrap 5, it ensures a responsive layout across devices. Admin features include data entry, update, and management via a secure and intuitive interface.'
     },
     
   {
-  id: 3,
-  name: 'Playwright Automation Test Application',
-  summary: "An advanced E2E automation project using Playwright with silent authentication, Allure reporting, and Excel-driven validation for complex web workflows.",
-  description: "This project is a scalable end-to-end (E2E) automation suite built with Playwright and TypeScript for a production-grade web application. It implements silent login via authentication middleware by injecting session cookies or tokens directly into the browser context, enabling faster and cleaner test execution. The suite supports automated testing of file uploads/downloads, Excel read/write operations using library. Configured with Allure for detailed reporting, the framework provides real-time visibility into test runs with logs, screenshots, and step-level results. Additional features include environment-based configuration using `.env`, data-driven testing, test tagging, parallel execution.",
-  projectLink: '',
-  tags: [Tag.TYPESCRIPT,
+    id: 3,
+    name: 'Playwright Automation end to end Testing Application and The suite automates complex workflows including file uploads, downloads, and Excel read/write operations using AI agents and MCP servers.',
+    summary: "An advanced end-to-end automation suite using Playwright and AI-driven Excel validation, featuring silent authentication, Allure reporting, and environment-based configuration.",
+    projectLink: '',
+    tags: [Tag.TYPESCRIPT,
     Tag.PLAYWRIGHT,
     Tag.E2ETESTING,
     Tag.AUTOMATION,
-  ],
-  pictures: [""]
-},
+    ],
+    pictures: [""],
+    description: 'This scalable automation testing framework is built with Playwright and TypeScript for enterprise web applications. It enables silent authentication by injecting tokens directly into browser sessions, significantly improving test performance. The suite automates complex workflows including file uploads, downloads, and Excel read/write operations using AI agents and MCP servers. With Allure integration for detailed reporting, it includes environment-specific configs, test tagging, parallel execution, and real-time debugging tools like screenshots and step-level logs.'
+  },
 
     
     {
       id: 4,
       name: 'Angular Portfolio App',
-      summary: 'A responsive and dynamic portfolio website designed and developed by Saddam Shaikh.',
-      description: 'This portfolio is a dynamic and responsive web application built using Angular, showcasing my skills and projects as a software developer. The design and development of this portfolio aimed to provide a seamless user experience across different devices while highlighting various aspects of my professional journey. The potfolio has sections of home, about, education, portfolio projects and contact information. Key features are its dynamic content, the responsive design and modern aesthetics.',
+      summary: 'A responsive and interactive portfolio website designed and developed by Saddam Shaikh using Angular 19 and modern UI practices.',
+      description: 'This portfolio is a fully responsive Angular web application that highlights my professional background, skills, and project work. The design emphasizes clean, modern aesthetics with smooth navigation across sections including Home, About, Education, Projects, and Contact. Built using Angular, TypeScript, Bootstrap, and CSS3, it demonstrates dynamic content rendering, modular structure, and cross-device compatibility.',
       projectLink: '',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP,],
       pictures: [""]
@@ -63,20 +63,20 @@ export class PortfolioComponent {
     {
       id: 5,
       name: 'Car Rental Service',
-      summary: 'A full-stack web application for managing car rentals, built with ReactJS, Node.js, Express, and MongoDB.',
-      description: "Car Rental Service is a responsive web application allowing users to browse, reserve, and manage rental cars online. The frontend is developed using ReactJS with Bootstrap for styling and responsive design. The backend is powered by Node.js and Express.js, while MongoDB serves as the database to store user data, booking history, car inventory, and availability. The application communicates via RESTful APIs and supports CRUD operations. Features include user authentication, real-time car availability, booking management, and an admin dashboard for fleet control. This project demonstrates full-stack development with REST APIs and modern UI/UX practices.",
+      summary: 'A full-stack car rental web app built with React, Node.js, Express, and MongoDB, offering real-time booking and fleet management.',
       projectLink: 'https://github.com/yourusername/car-rental-service',
-      tags: [Tag.REACT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP, Tag.NODEJS, Tag.EXPRESSJS, Tag.MONGODB,Tag.RESTAPI],
-      pictures: [""]
+      tags: [Tag.REACT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP, Tag.NODEJS, Tag.EXPRESSJS, Tag.MONGODB, Tag.RESTAPI],
+      pictures: [""],
+      description: 'Car Rental Service is a responsive web application for browsing and managing rental vehicles. The frontend is developed in React with Bootstrap styling, while the backend uses Node.js, Express, and MongoDB for database operations. It features user authentication, real-time car availability, CRUD functionality for bookings, and an admin dashboard for fleet control. Communication is handled via secure RESTful APIs, demonstrating complete full-stack development capabilities.'
     },  
     {
       id: 6,
       name: 'Heart Disease Prediction System',
-      summary: "College final year project web application for predicting heart disease risk using ASP.NET, SQL Server, and C#, with a responsive HTML/CSS frontend.",
-      description: "Heart Disease Prediction System is a responsive web application developed using ASP.NET, C#, and SQL Server, with HTML5 and CSS3 for the frontend. The system enables users to input various health parameters—such as age, cholesterol level, blood pressure, and heart rate—to assess the likelihood of heart disease. The backend uses logical conditions and clinical thresholds to generate predictions, and stores user data securely in a SQL Server database. Designed with a user-friendly and mobile-responsive UI, this project demonstrates practical implementation of full-stack development and healthcare informatics in a final year academic setting.",
+      summary: "A final-year academic project built using ASP.NET and SQL Server to predict heart disease risk based on user health data inputs.",
       projectLink: '',
       tags: [Tag.HTML5, Tag.CSS3, Tag.ASPNET, Tag.SQLSERVER, Tag.CSHARP],
-      pictures: [""]
+      pictures: [""],
+      description: 'The Heart Disease Prediction System is a healthcare-focused web application developed with ASP.NET, C#, and SQL Server. Users input medical parameters such as age, cholesterol, blood pressure, and heart rate to assess heart disease risk. The backend processes this data using predefined logic and stores results securely in SQL Server. The frontend, built with HTML5 and CSS3, is responsive and user-friendly. This project showcases practical implementation of full-stack web development and healthcare informatics.'
     }    
   ]
   constructor(private titleService: Title) {
@@ -86,5 +86,4 @@ export class PortfolioComponent {
   trackById(index: number, project: Card): number {
     return project.id;
   }
-
 }
